@@ -7,12 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="devops-starter" />
+        <module name="rest_day2" />
+        <module name="dat3-startcode" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dat3-startcode" options="-endorseddirs C:\Users\23300\IdeaProjects\demo2\dat3-startcode\target/endorsed" />
       <module name="devops-starter" options="-endorseddirs $PROJECT_DIR$/target/endorsed" />
+      <module name="rest_day2" options="-endorseddirs C:\Users\23300\IdeaProjects\demo2\rest_day2\target/endorsed" />
     </option>
   </component>
 </project>
